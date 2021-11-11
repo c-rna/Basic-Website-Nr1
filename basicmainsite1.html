@@ -1,0 +1,65 @@
+<!--Template to create a basic website-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Site Title goes here</title>
+<meta charset="UTF-8">
+<!--This will auto scale for different device types (i.e. phone/computer)-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Basic styling web safe fonts to make site easy readible-->
+<link rel="stylesheet" type="text/css" href="basic.css" media="screen" />
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Tahoma, American Typewriter;
+}
+
+</style>
+</head>
+
+<!--Include scripts for image slider-->
+<script type="text/javascript" src="imageslide.js"></script>
+
+<body  onload="imageSlide()">
+
+  <!--Site Header-->
+  <div class="site_header">
+    <h1>Main Site Name</h1>
+    <p>Your catchy subliner phrase</p>
+  </div>
+
+  <!--panoramic image slider for proffesional look-->
+  <!-- Slideshow container -->
+<div class="imageslide-container">
+
+  <!-- Full-width images with number and caption text -->
+  <section>
+    <img class="imgslides" src="img1.jpg" style="width:100%">
+    <img class="imgslides" src="img2.jpg" style="width:100%">
+    <img class="imgslides" src="img3.jpg" style="width:100%">
+  </section>
+</div>
+
+  <!--Navigation Bar with some links/tabs-->
+  <div class="navbar">
+    <a href="#">Item 1</a>
+    <a href="#">Item 2</a>
+    <a href="#">Item 3</a>
+    <a href="#" class="right">Contact Us</a>
+  </div>
+
+  <!--Single Box for Content-->
+  <div class="content_box">
+    Some really cool information about your current site page/tab here.
+  </div>
+
+  <!--Footer at bottom of page-->
+  <div class="site_footer">
+    <h2>Footer</h2>
+  </div>
+
+</body>
+
+</html>

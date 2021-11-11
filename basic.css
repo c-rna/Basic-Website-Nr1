@@ -1,0 +1,115 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+img {vertical-align: middle;}
+
+/* styling for site_header <div> */
+
+.site_header {
+  padding: 35px;
+  text-align: center; /* center the text */
+  background: #031c47; /* background colour - dark blue #hex value*/
+  color: white; /* white text color */
+}
+
+/* Increase <h1> element font size*/
+.site_header h1 {
+  font-size: 35px;
+}
+
+
+
+/* Image slider styling:*/
+/* Slideshow container */
+.imageslide-container {
+  min-height: 100px;
+  max-height: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.imgslides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+/* Navigation Bar styling: */
+/* Top of the bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333; /* Dark background color */
+}
+
+/* Nav bar links */
+.navbar a {
+  float: left; /* Links should stay aligned */
+  display: block;
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 10px 15px;
+  text-decoration: none; /* Don't want the default link underline */
+}
+
+/* Nav bar items on RHS */
+.navbar a.right {
+  float: right;
+}
+
+/* Mouse-over/hover colours */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+
+
+/* Styling for content_box <div>: */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Content container */
+.content_box {
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+
+
+/* Styling for site_footer <div>: */
+.site_footer {
+  padding: 17px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
